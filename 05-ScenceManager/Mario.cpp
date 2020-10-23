@@ -154,7 +154,7 @@ void CMario::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)
 						isGround = true;
 						isJumping = false;
 						isFly = false;
-						vy = 0;
+						//vy = 0;
 					}
 					else
 						y += dy;
